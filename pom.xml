@@ -18,7 +18,22 @@
         <java.version>1.8</java.version>
     </properties>
 
+
+
+
     <dependencies>
+
+        <!-- Other dependencies(custom) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+        </dependency>
+
+
         <!--Spring-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
